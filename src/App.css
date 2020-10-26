@@ -1,0 +1,102 @@
+.App {
+  /* background-color: #1a1a1d; */
+  background-color: #2c2d2e;
+  /* color: white; */
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.yellow {
+  color: #fdd748;
+  /* color: #fccd04; */
+}
+
+.btn {
+  background-color: #fdd748 !important;
+  border-radius: 2rem;
+  max-width: 18rem;
+  font-size: 0.9rem;
+}
+
+.fontTitle {
+  font-weight: bold;
+  font-family: "Averia Serif Libre", cursive;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2c2d2e;
+  font-size: 0.7rem;
+}
+
+.hover:hover {
+  transition: all 0.5s ease-out;
+  text-decoration: none;
+  color: white;
+}
+
+.pageCard {
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+
+.pageCardHome {
+  min-height: 92vh;
+  justify-content: center;
+}
+
+.skills {
+  justify-content: center;
+}
+
+@media (max-width: 820px) {
+  .responsiveText {
+    font-size: 0.9rem;
+  }
+}
+
+/* @media (orientation: landscape) {
+  @media (min-width: 820px) {
+    .pageCard {
+      padding-left: 3rem;
+      padding-right: 3rem;
+    }
+  }
+  @media (min-width: 992px) {
+    .pageCard {
+      padding-left: 5rem;
+      padding-right: 5rem;
+    }
+  }
+} */
+
+@media (max-width: 576px) {
+  .pageCard {
+    text-align: center;
+  }
+}
+
+/* @media (min-width: 769px) {
+  .pageCard {
+    padding-left: 60px;
+    padding-right: 100px;
+  }
+}
+
+@media (min-width: 993px) {
+  .pageCard {
+    padding-left: 120px;
+    padding-right: 150px;
+  }
+} */

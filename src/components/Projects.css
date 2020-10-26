@@ -1,0 +1,32 @@
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 0;
+}
+
+.card {
+  border-radius: 25px;
+  background: inherit;
+  box-shadow: 5px 5px 10px #1d1e1f, -5px -5px 10px #3f4142;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.card-img-top {
+  padding: 8px;
+  border-radius: 25px;
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 577px) {
+}
+
+@media (min-width: 767px) {
+}
