@@ -1,6 +1,6 @@
 .navbar {
   padding: 0;
-  position: fixed;
+  position: sticky;
   background-color: transparent;
 }
 

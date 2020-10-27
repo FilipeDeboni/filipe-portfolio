@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function ProjectCard(props) {
   return (
-    <div className="card bg-transparent mt-5 col-xs-12 col-sm-6 col-md-4">
+    <div className="card bg-transparent col-xs-12 col-sm-6 col-md-4">
       <img
         className="card-img-top rounded"
         src={props.image}

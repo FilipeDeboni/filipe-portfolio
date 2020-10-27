@@ -14,7 +14,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Route exact path="/" component={Home} />
+        <div className="parallax-img"></div>
         <Route exact path="/" component={Projects} />
+        <div className="parallax-img"></div>
         <Route exact path="/" component={About} />
         <Route exact path="/" component={Footer} />
         <Route path="/project1" component={Project1} />
