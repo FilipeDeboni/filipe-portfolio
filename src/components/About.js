@@ -4,8 +4,8 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="pageCard responsiveText container my-4" id="about">
-      <h1 className="font-title mb-4">About</h1>
+    <div className="page-card responsiveText container my-4" id="about">
+      <h1 className="font-title pb-4">About</h1>
       <div className="row">
         <div className="d-flex flex-column justify-content-center align-items-center about-text col-12 col-lg-6">
           <p>
@@ -31,8 +31,8 @@ function About() {
         </div>
 
         <div className="col-12 col-lg-6">
-          <div className="d-flex flex-column justify-content-center align-items-center card card-skills">
-            <h5 className="m-4 card-title">Skills</h5>
+          <div className="d-flex flex-column justify-content-center align-items-center card card-about-skills">
+            <h5 className="m-4 card-title-about">Skills</h5>
             <div className="row justify-content-center">
               <Skills
                 icon={<i className="yellow fab fa-react"></i>}
@@ -73,19 +73,22 @@ function About() {
             </div>
           </div>
           <div className="">
-            <div className="d-flex flex-column justify-content-center align-items-center card card-contact col">
-              <h5 className="m-4 card-title">Let's make something great!</h5>
-              <p className="card-text">
+            <div className="d-flex flex-column justify-content-center align-items-center card card-about-contact col">
+              <h5 className="m-4 card-title-about">
+                Let's make something great!
+              </h5>
+              <p className="card-text-about">
                 If you want to get in touch or just say hi, feel free to reach
                 out through any platforms bellow and let's talk
               </p>
               <div className="d-flex justify-content-center p-2">
                 <button className="icons">
-                  <i className="fab fa-linkedin-in"></i>
-                </button>
-                <button className="icons">
                   <i className="far fa-envelope-open"></i>
                 </button>
+                <button className="icons">
+                  <i className="fab fa-linkedin-in"></i>
+                </button>
+
                 <button className="icons">
                   <i className="fab fa-github"></i>
                 </button>

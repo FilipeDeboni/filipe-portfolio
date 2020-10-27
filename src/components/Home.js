@@ -6,15 +6,15 @@ function Home() {
   return (
     <div className="">
       <Navbar />
-      <div className="pageCard pageCardHome container" id="home">
+      <div className="page-card page-card-home container" id="home">
         <h1 className="home-font-title">Hello,</h1>
         <h1 className="home-font-title">
           my name is <span className="yellow text-nowrap">Filipe Deboni</span>,
         </h1>
-        <h5>
+        <h5 className="home-font-text">
           and I am a <span className="yellow"> Front-End</span> Developer
         </h5>
-        <h5>living in São Paulo, Brazil</h5>
+        <h5 className="home-font-text">living in São Paulo, Brazil</h5>
       </div>
     </div>
   );
