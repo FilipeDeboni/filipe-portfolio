@@ -1,34 +1,21 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Projects.css";
 
 function ProjectCard(props) {
   return (
-    <div className="card bg-transparent col-xs-12 col-sm-6 col-md-4">
-      <img
-        className="card-img-top rounded"
-        src={props.image}
-        alt="Project screens"
-      />
-      <div className="card-body">
-        <h4 className="fontTitle text-center">
-          <span className="font-title yellow">{props.name}</span>
-          {props.subName}
-        </h4>
-        <p className="responsiveText mb-1 text-center">{props.description}</p>
-        <p className="responsiveText mb-0 text-secondary text-center">
-          {props.hashtags}
-        </p>
-      </div>
-      <div className="card-body d-flex justify-content-around pt-0">
-        <Link to={props.website} className="btn">
-          <i className="fab fa-github"></i> GitHub
-        </Link>
-        <Link to={props.website} className="btn">
-          <i class="far fa-window-maximize"></i> Website
-        </Link>
-        <Link to={props.website} className="btn">
-          <i class="fas fa-project-diagram"></i> Details
-        </Link>
+    <div class="col-md-6 col-xl-4">
+      <div className="card card-projects text-center">
+        <img className="card-img-top" src={props.image}></img>
+        <div className="card-body">
+          <h5 className="card-title-projects">{props.title}</h5>
+          <p className="card-text-projects">{props.description}</p>
+          <div className="mb-2 button-align-projects">
+            <Link to={props.link} className="text-button-projects hover">
+              Details >>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

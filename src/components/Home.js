@@ -16,6 +16,7 @@ function Home() {
         </h5>
         <h5 className="home-font-text">living in São Paulo, Brazil</h5>
       </div>
+      <div className="parallax-img" id="background1"></div>
     </div>
   );
 }
