@@ -24,12 +24,14 @@
   padding: 0 20px;
   display: flex;
   justify-content: center;
+  font-family: "Ubuntu", sans-serif;
   font-weight: bold;
 }
 
 .card-text-about {
   padding: 0 20px;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .icons {
@@ -40,7 +42,7 @@
   position: relative;
   /* outline: 0; */
   box-shadow: 5px 5px 10px #1d1e1f, -5px -5px 10px #3f4142;
-  background-color: #2c2d2e;
+  background-color: inherit;
   color: #fdd748;
   width: 2.6rem;
   height: 2.6rem;
@@ -59,7 +61,7 @@
   background: inherit;
   /* outline: 0; */
   box-shadow: 5px 5px 10px #1d1e1f, -5px -5px 10px #3f4142;
-  background-color: #2c2d2e;
+  background-color: inherit;
   color: #fdd748;
   height: 2.6rem;
   padding: 0 10px;
@@ -69,4 +71,13 @@
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+@media (min-width: 1140px) {
+  .about-text {
+    font-size: 1.1rem;
+  }
+  .card-text-about {
+    font-size: 1.1rem;
+  }
 }

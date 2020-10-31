@@ -24,7 +24,12 @@ function Navbar(props) {
           </li>
           <li className="nav-item">
             <a className="yellow hover" href="#about">
-              About
+              About Me
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="yellow hover" href="#about">
+              Contact
             </a>
           </li>
         </ul>

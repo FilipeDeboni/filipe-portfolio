@@ -5,23 +5,36 @@ import "./About.css";
 function About() {
   return (
     <div className="page-card responsiveText container my-4" id="about">
-      <h1 className="font-title pb-4">About</h1>
+      <h1 className="font-title pb-4">About Me</h1>
       <div className="row">
         <div className="d-flex flex-column justify-content-center align-items-center about-text col-12 col-lg-6">
           <p>
-            The Front-End gathers all my interests: logic, problem-solving,
-            humans and creativity. My journey has always been based on
-            transparency, passion for learning and assertive communication. I'm
-            currently studying Systems Analysis and Development graduation and
-            finished Ironhack Web Development Bootcamp on 2020.
+            The Front-End has the power to gather all my interests: logic,
+            problem-solving, humans and creativity. I'm currently studying{" "}
+            <span className="yellow">Systems Analysis and Development</span>{" "}
+            graduation and finished Ironhack Web Development Bootcamp on 2020.
           </p>
           <p>
-            As a good INTJ and Type 5 personality type, I’m an avid lifelong
-            learner, meticulous, analythical, curious and creative. On the other
-            hand, things that drains my energy are deal with people who put
-            emotions over rationality and small talks. My bachelor in Psychology
-            helped me a lot with that points and also to think strategically and
-            to relate better with people.
+            As a good{" "}
+            <a
+              href="https://www.16personalities.com/intj-personality"
+              className="yellow hover"
+            >
+              INTJ
+            </a>{" "}
+            and{" "}
+            <a
+              href="https://www.truity.com/enneagram/personality-type-5-investigator"
+              className="yellow hover"
+            >
+              Type 5
+            </a>{" "}
+            personality type, I’m an avid knowledge seeker, meticulous,
+            versatyle, analythical, curious and creative. On the other hand,
+            things I'm not so good at is to deal with people who put emotions
+            over rationality and when I'm focused I can seem to be in my on
+            world. My bachelor in Psychology helped me a lot with that points
+            and also to think strategically and to relate better with people.
           </p>
           <p>
             I work to make awesome applications. One that is easy to use,
@@ -32,7 +45,7 @@ function About() {
 
         <div className="col-12 col-lg-6">
           <div className="d-flex flex-column justify-content-center align-items-center card card-about-skills">
-            <h5 className="m-4 card-title-about">Skills</h5>
+            <h5 className="m-4 card-title-about">My Skills</h5>
             <div className="row justify-content-center">
               <Skills
                 icon={<i className="yellow fab fa-react"></i>}
@@ -82,16 +95,24 @@ function About() {
                 out through any platforms bellow and let's talk
               </p>
               <div className="d-flex justify-content-center p-2">
-                <button className="icons">
+                <a className="icons hover">
                   <i className="far fa-envelope-open"></i>
-                </button>
-                <button className="icons">
+                </a>
+                <a
+                  className="icons hover"
+                  target="_blank"
+                  href="https://www.linkedin.com/in/filipedeboni/"
+                >
                   <i className="fab fa-linkedin-in"></i>
-                </button>
+                </a>
 
-                <button className="icons">
+                <a
+                  className="icons hover"
+                  target="_blank"
+                  href="https://github.com/FilipeDeboni"
+                >
                   <i className="fab fa-github"></i>
-                </button>
+                </a>
 
                 <button className="resumee-button">
                   <span className="">Download my Resumee</span>

@@ -1,12 +1,12 @@
 .home-font-title {
   font-weight: bold;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .page-card-home {
-  min-height: 93vh;
+  min-height: 100vh;
   justify-content: center;
-  padding-top: 0;
+  margin-top: -164px;
 }
 
 @media (min-width: 768px) {

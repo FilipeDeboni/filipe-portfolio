@@ -9,22 +9,22 @@ function Footer() {
 
       <div className="d-flex align-self-center">
         <div className="footer-icons">
-          <span
+          <a
             target="_blank"
             href="https://www.linkedin.com/in/filipedeboni/"
             className="yellow hover"
           >
             <i className="fab fa-linkedin"></i>
-          </span>
+          </a>
         </div>
         <div className="footer-icons">
-          <span
+          <a
             target="_blank"
             href="https://github.com/FilipeDeboni"
             className="yellow hover"
           >
             <i className="fab fa-github"></i>
-          </span>
+          </a>
         </div>
       </div>
     </footer>

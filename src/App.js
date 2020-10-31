@@ -17,9 +17,9 @@ function App() {
         <Route exact path="/" component={Projects} />
         <Route exact path="/" component={About} />
         <Route exact path="/" component={Footer} />
-        <Route path="/project1" component={Project1} />
-        <Route path="/project2" component={Project2} />
-        <Route path="/project3" component={Project3} />
+        <Route path="/clover" component={Project1} />
+        <Route path="/petfriendly" component={Project2} />
+        <Route path="/portfolio" component={Project3} />
       </BrowserRouter>
     </div>
   );

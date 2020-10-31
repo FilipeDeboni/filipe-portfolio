@@ -13,26 +13,20 @@ function Projects() {
           <ProjectCard
             image={projectImage}
             title="Clover"
-            description="Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been Lorem Ipsum has been Lorem Ipsum
-        has been"
-            link="#"
+            description="An apllication for personal budget control, based on the 50/30/20 rule."
+            link="/clover"
           ></ProjectCard>
           <ProjectCard
             image={projectImage}
-            title="Clover"
-            description="Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been Lorem Ipsum has been Lorem Ipsum
-        has been"
-            link="#"
+            title="Pet Friend.ly"
+            description="It's a social network with a feature specific for pet addoption."
+            link="/petfriendly"
           ></ProjectCard>
           <ProjectCard
             image={projectImage}
-            title="Clover"
-            description="Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been Lorem Ipsum has been Lorem Ipsum
-        has been"
-            link="#"
+            title="My Portfolio"
+            description="Well, you are already here but I developd it to aggregate my projects effectively."
+            link="/portfolio"
           ></ProjectCard>
         </div>
       </div>

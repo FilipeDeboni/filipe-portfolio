@@ -1,7 +1,7 @@
 .App {
   background-color: #2c2d2e;
   color: white;
-  font-family: "PT Sans", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .yellow {
@@ -35,7 +35,7 @@
 
 .font-title {
   font-weight: bold;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Ubuntu", sans-serif;
   text-align: center;
 }
 
