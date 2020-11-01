@@ -7,6 +7,10 @@
   min-height: 100vh;
   justify-content: center;
   margin-top: -164px;
+  display: flex;
+  flex-direction: column;
+  /* padding-top: 8vh;
+  padding-bottom: 8vh; */
 }
 
 @media (min-width: 768px) {

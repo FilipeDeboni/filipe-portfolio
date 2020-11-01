@@ -1,8 +1,44 @@
 .project-detail-page {
   margin-top: -44px;
   min-height: 100vh;
+  text-align: left !important;
+}
+
+.column-two {
+  padding: 20px;
+  border-radius: 25px;
+  background: inherit;
+  box-shadow: inset 5px 5px 10px #1d1e1f, inset -5px -5px 10px #3f4142;
 }
 
 .project-detail-img {
   max-width: 100%;
+}
+
+.title-project-detail {
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.buttons-details {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 576px) {
+  .column-two {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 767px) {
+  .card-body {
+    margin-top: -25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .column-two {
+    padding: 35px;
+  }
 }

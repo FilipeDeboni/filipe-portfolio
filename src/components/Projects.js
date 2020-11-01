@@ -19,7 +19,7 @@ function Projects() {
           <ProjectCard
             image={projectImage}
             title="Pet Friend.ly"
-            description="It's a social network with a feature specific for pet addoption."
+            description="It's a social network with a specific feature for pet adoption."
             link="/petfriendly"
           ></ProjectCard>
           <ProjectCard

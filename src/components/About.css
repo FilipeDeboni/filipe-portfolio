@@ -5,9 +5,8 @@
 .card-about-contact {
   border-radius: 25px;
   background: inherit;
-  /* box-shadow: 5px 5px 10px #1d1e1f, -5px -5px 10px #3f4142; */
   box-shadow: inset 5px 5px 10px #1d1e1f, inset -5px -5px 10px #3f4142;
-  /* margin: 0 15px; */
+
   margin-bottom: 30px;
 }
 
@@ -15,8 +14,7 @@
   border-radius: 25px;
   background: inherit;
   box-shadow: 5px 5px 10px #1d1e1f, -5px -5px 10px #3f4142;
-  /* box-shadow: inset 5px 5px 10px #1d1e1f, inset -5px -5px 10px #3f4142; */
-  /* margin: 0 15px; */
+
   margin-bottom: 30px;
 }
 
@@ -31,7 +29,7 @@
 .card-text-about {
   padding: 0 20px;
   text-align: center;
-  margin-bottom: 0;
+  margin-bottom: 12px;
 }
 
 .icons {
@@ -52,25 +50,31 @@
   cursor: pointer;
 }
 
-.resumee-button {
+.text-button {
   border: none;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  background: inherit;
-  /* outline: 0; */
+  outline: 0;
   box-shadow: 5px 5px 10px #1d1e1f, -5px -5px 10px #3f4142;
   background-color: inherit;
   color: #fdd748;
   height: 2.6rem;
-  padding: 0 10px;
+  padding: 0 14px;
   border-radius: 10rem;
   margin: 0.6rem;
-  font-size: 20px;
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: bold;
+}
+
+.resumee-size {
+  min-width: 183px;
+}
+
+.icon-size {
+  font-size: 1.2rem;
 }
 
 @media (min-width: 1140px) {

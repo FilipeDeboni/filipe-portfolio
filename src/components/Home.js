@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="">
       <Navbar />
-      <div className="page-card page-card-home container" id="home">
+      <div className="page-card-home container" id="home">
         <h1 className="home-font-title">Hello,</h1>
         <h1 className="home-font-title">
           my name is <span className="yellow text-nowrap">Filipe Deboni</span>,

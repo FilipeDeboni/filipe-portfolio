@@ -4,7 +4,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="page-card responsiveText container my-4" id="about">
+    <div className="page-card responsive-text container my-4" id="about">
       <h1 className="font-title pb-4">About Me</h1>
       <div className="row">
         <div className="d-flex flex-column justify-content-center align-items-center about-text col-12 col-lg-6">
@@ -36,11 +36,11 @@ function About() {
             world. My bachelor in Psychology helped me a lot with that points
             and also to think strategically and to relate better with people.
           </p>
-          <p>
+          {/* <p>
             I work to make awesome applications. One that is easy to use,
             beautiful, accessible and frustration-free for users, making their
             life easier.
-          </p>
+          </p> */}
         </div>
 
         <div className="col-12 col-lg-6">
@@ -87,14 +87,12 @@ function About() {
           </div>
           <div className="">
             <div className="d-flex flex-column justify-content-center align-items-center card card-about-contact col">
-              <h5 className="m-4 card-title-about">
-                Let's make something great!
-              </h5>
+              <h5 className="m-4 card-title-about">Contact</h5>
               <p className="card-text-about">
                 If you want to get in touch or just say hi, feel free to reach
                 out through any platforms bellow and let's talk
               </p>
-              <div className="d-flex justify-content-center p-2">
+              <div className="contact-box-icons pb-2">
                 <a className="icons hover">
                   <i className="far fa-envelope-open"></i>
                 </a>
@@ -113,10 +111,16 @@ function About() {
                 >
                   <i className="fab fa-github"></i>
                 </a>
-
-                <button className="resumee-button">
-                  <span className="">Download my Resumee</span>
-                </button>
+                <a
+                  className="text-button resumee-size hover"
+                  target="_blank"
+                  href="#"
+                >
+                  <span className="">
+                    <i className="icon-size pr-1 fas fa-arrow-circle-down"></i>
+                    Download my Resumee
+                  </span>
+                </a>
               </div>
             </div>
           </div>
