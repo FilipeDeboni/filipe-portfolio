@@ -1,6 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import projectImage from "../images/screens-image.png";
+import project1 from "../images/petfriendly1.png";
+import project2 from "../images/clover1.png";
+import project3 from "../images/portfolio1.png";
 import "./Projects.css";
 
 function Projects() {
@@ -11,19 +13,19 @@ function Projects() {
         {/* <p>Check out the projects I've worked on recently.</p> */}
         <div className="row justify-content-center">
           <ProjectCard
-            image={projectImage}
-            title="Clover"
-            description="An apllication for personal budget control, based on the 50/30/20 rule."
-            link="/clover"
-          ></ProjectCard>
-          <ProjectCard
-            image={projectImage}
+            image={project1}
             title="Pet Friend.ly"
             description="It's a social network with a specific feature for pet adoption."
             link="/petfriendly"
           ></ProjectCard>
           <ProjectCard
-            image={projectImage}
+            image={project2}
+            title="Clover"
+            description="An apllication for personal budget control, based on the 50/30/20 rule."
+            link="/clover"
+          ></ProjectCard>
+          <ProjectCard
+            image={project3}
             title="My Portfolio"
             description="Well, you are already here but I developd it to aggregate my projects effectively."
             link="/portfolio"

@@ -1,7 +1,8 @@
 import React from "react";
 import NavbarProject from "./NavbarProject";
 import "./ProjectDetail.css";
-import projectImage from "../images/screens-image.png";
+import project1 from "../images/clover1.png";
+import project2 from "../images/clover2.png";
 
 function Project2() {
   return (
@@ -11,9 +12,16 @@ function Project2() {
         <div className="row">
           <div className="col-12 col-lg-6">
             <img
-              src={projectImage}
+              src={project1}
               className="project-detail-img"
               alt="project screens"
+              className="img-rounded"
+            ></img>
+            <img
+              src={project2}
+              className="project-detail-img"
+              alt="project screens"
+              className="img-rounded"
             ></img>
             <div className="buttons-details mb-5">
               {/* <a
@@ -26,28 +34,49 @@ function Project2() {
                   website
                 </span>
               </a> */}
-              <a className="icons hover mx-3" target="_blank" href="#">
+              <a
+                className="icons hover mx-3"
+                target="_blank"
+                href="https://clover-budget.herokuapp.com/"
+              >
                 <i className="far fa-window-maximize"></i>
               </a>
               <a
                 className="icons hover mx-3"
                 target="_blank"
-                href="https://github.com/FilipeDeboni/ironhack-project-3-petfriendly-front"
+                href="https://github.com/FilipeDeboni/Ironhack-Project-2-Clover-Finance/tree/filipe"
               >
                 <i className="fab fa-github"></i>
               </a>
             </div>
           </div>
           <div className="column-two col-12 col-lg-6">
-            <h2 className="title-project-detail">Pet Friend.ly</h2>
+            <h2 className="title-project-detail">Clover</h2>
             <div>
               <h5 className="title-project-detail pt-4">Description</h5>
               <p>
-                Pet Friend.ly is a social network with a specific feature for
-                pet adoption. We used insights for the features from a friend
-                who has an NGO for rescuing animal (acting like an PO in the
-                Project). It was developed in the 9th week of the Ironhack Web
-                Development Bootcamp as a final project.
+                Clover is a personal finance control application developed in
+                one week from concept to the final website based on the 50/30/20
+                rule. It was developed in a team of two as a requirement of the
+                6th week of the Ironhack Web Development Bootcamp and consist on
+                an application where the user can insert their revenue and
+                expenses and the website calculate their budget on each custom
+                category:
+                <ul className="my-1">
+                  <li>
+                    Essentials (50%): basic expenses as rent and groceries
+                  </li>
+                  <li>
+                    Life Style (30%): that things that make your life better as
+                    dinner out, streaming services and vacation
+                  </li>
+                  <li>Priorities (20%): savings and investments</li>
+                </ul>
+                The user can change all the categories at will. as requirements,
+                we needed to use Handlebars. I personally preferred to use React
+                like in other Projects deloped during the course for a better
+                organization. As next features we planned improvements on
+                reports and graphics.
               </p>
             </div>
             <div>
@@ -58,15 +87,15 @@ function Project2() {
                   Deboni <span className="text-muted">(me)</span>
                 </li>
                 <li>
-                  <span className="font-weight-bold">Back-End: </span>Artur
-                  Farneze
+                  <span className="font-weight-bold">Back-End: </span>Daniel
+                  Albanez
                 </li>
               </ul>
             </div>
             <div>
               <h5 className="title-project-detail pt-4">Technologies</h5>
               <span className="text-muted">
-                #React #JavaScript #CSS #Bootstrap #MongoDB
+                #JavaScript #CSS #Bootstrap #Handlebars #MongoDB
               </span>
             </div>
           </div>

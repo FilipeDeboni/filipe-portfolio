@@ -1,7 +1,8 @@
 import React from "react";
 import NavbarProject from "./NavbarProject";
 import "./ProjectDetail.css";
-import projectImage from "../images/screens-image.png";
+import project1 from "../images/petfriendly1.png";
+import project2 from "../images/petfriendly2.png";
 
 function Project1() {
   return (
@@ -11,9 +12,16 @@ function Project1() {
         <div className="row">
           <div className="col-12 col-lg-6">
             <img
-              src={projectImage}
+              src={project1}
               className="project-detail-img"
               alt="project screens"
+              className="img-rounded"
+            ></img>
+            <img
+              src={project2}
+              className="project-detail-img"
+              alt="project screens"
+              className="img-rounded"
             ></img>
             <div className="buttons-details mb-5">
               {/* <a
@@ -27,45 +35,31 @@ function Project1() {
                 </span>
               </a> */}
               <a
-                className="icons hover mx-3"
+                className="icons hover mx-3 text-muted"
                 target="_blank"
-                href="https://clover-budget.herokuapp.com/"
+                href="#"
               >
                 <i className="far fa-window-maximize"></i>
               </a>
               <a
                 className="icons hover mx-3"
                 target="_blank"
-                href="https://github.com/FilipeDeboni/Ironhack-Project-2-Clover-Finance/tree/filipe"
+                href="https://github.com/FilipeDeboni/ironhack-project-3-petfriendly-front"
               >
                 <i className="fab fa-github"></i>
               </a>
             </div>
           </div>
           <div className="column-two col-12 col-lg-6">
-            <h2 className="title-project-detail">Clover</h2>
+            <h2 className="title-project-detail">Pet Friend.ly</h2>
             <div>
               <h5 className="title-project-detail pt-4">Description</h5>
               <p>
-                Clover is a personal finance control application developed in 4
-                days from concept to the final website based on the 50/30/20
-                rule. It was developed in a team of two on the 6th week as a
-                requirement of the Ironhack Web Development Bootcamp and consist
-                on an apllication were the user can insert their revenue and
-                expenses and the website calculate their budget on each
-                category:
-                <ul className="my-1">
-                  <li>
-                    Essentials (50%): basic expenses as rent and groceries
-                  </li>
-                  <li>
-                    Life Style (30%): that things that make your life better as
-                    dinner out, streaming services and vacation
-                  </li>
-                  <li>Priorities (20%): savings and investments</li>
-                </ul>
-                The user can change all the categories at will. As next features
-                we planned improvements on reports and graphics.
+                Pet Friend.ly is a social network with a specific feature for
+                pet adoption. We used insights from a friend who has an NGO for
+                rescuing animals, acting like a PO in the Project and choosing
+                how features to implement. It was developed in the 9th week of
+                the Ironhack Web Development Bootcamp as a final project.
               </p>
             </div>
             <div>
@@ -76,15 +70,15 @@ function Project1() {
                   Deboni <span className="text-muted">(me)</span>
                 </li>
                 <li>
-                  <span className="font-weight-bold">Back-End: </span>Daniel
-                  Albanez
+                  <span className="font-weight-bold">Back-End: </span>Artur
+                  Farneze
                 </li>
               </ul>
             </div>
             <div>
               <h5 className="title-project-detail pt-4">Technologies</h5>
               <span className="text-muted">
-                #JavaScript #CSS #Bootstrap #MongoDB
+                #React #JavaScript #CSS #Bootstrap #MongoDB
               </span>
             </div>
           </div>

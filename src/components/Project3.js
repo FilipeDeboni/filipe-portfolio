@@ -1,7 +1,8 @@
 import React from "react";
 import NavbarProject from "./NavbarProject";
 import "./ProjectDetail.css";
-import projectImage from "../images/screens-image.png";
+import project1 from "../images/screens-image.png";
+import project2 from "../images/screens-image.png";
 
 function Project3() {
   return (
@@ -11,9 +12,16 @@ function Project3() {
         <div className="row">
           <div className="col-12 col-lg-6">
             <img
-              src={projectImage}
+              src={project1}
               className="project-detail-img"
               alt="project screens"
+              className="img-rounded"
+            ></img>
+            <img
+              src={project2}
+              className="project-detail-img"
+              alt="project screens"
+              className="img-rounded"
             ></img>
             <div className="buttons-details mb-5">
               {/* <a

@@ -90,7 +90,7 @@ function About() {
               <h5 className="m-4 card-title-about">Contact</h5>
               <p className="card-text-about">
                 If you want to get in touch or just say hi, feel free to reach
-                out through any platforms bellow and let's talk
+                me out through any platform bellow and let's talk
               </p>
               <div className="contact-box-icons pb-2">
                 <a className="icons hover">
