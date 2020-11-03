@@ -17,6 +17,7 @@ function About() {
           <p>
             As a good{" "}
             <a
+              target="_blank"
               href="https://www.16personalities.com/intj-personality"
               className="yellow hover"
             >
@@ -24,17 +25,19 @@ function About() {
             </a>{" "}
             and{" "}
             <a
+              target="_blank"
               href="https://www.truity.com/enneagram/personality-type-5-investigator"
               className="yellow hover"
             >
               Type 5
             </a>{" "}
-            personality type, I’m an avid knowledge seeker, meticulous,
-            versatyle, analythical, curious and creative. On the other hand,
-            things I'm not so good at is to deal with people who put emotions
-            over rationality and when I'm focused I can seem to be in my on
-            world. My bachelor in Psychology helped me a lot with that points,
-            also to think strategically and to relate better with people.
+            personality type, I’m an avid knowledge seeker, analythical,
+            meticulous, assertive, versatyle, curious and creative. On the other
+            hand, things I'm not so good at is to deal with people who put
+            emotions over rationality and when I'm focused I can seem to be in
+            my on world. My bachelor in Psychology helped me a lot with that
+            points, also to think strategically and to relate better with
+            people.
           </p>
           {/* <p>
             I work to make awesome applications. One that is easy to use,
