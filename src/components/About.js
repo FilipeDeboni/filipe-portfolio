@@ -33,8 +33,8 @@ function About() {
             versatyle, analythical, curious and creative. On the other hand,
             things I'm not so good at is to deal with people who put emotions
             over rationality and when I'm focused I can seem to be in my on
-            world. My bachelor in Psychology helped me a lot with that points
-            and also to think strategically and to relate better with people.
+            world. My bachelor in Psychology helped me a lot with that points,
+            also to think strategically and to relate better with people.
           </p>
           {/* <p>
             I work to make awesome applications. One that is easy to use,

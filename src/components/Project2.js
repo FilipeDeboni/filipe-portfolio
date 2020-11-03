@@ -24,16 +24,6 @@ function Project2() {
               className="img-rounded"
             ></img>
             <div className="buttons-details mb-5">
-              {/* <a
-                className="text-button hover mx-3"
-                target="_blank"
-                href="https://clover-budget.herokuapp.com/"
-              >
-                <span className="">
-                  <i className="icon-size pr-1 far fa-window-maximize"></i>{" "}
-                  website
-                </span>
-              </a> */}
               <a
                 className="icons hover mx-3"
                 target="_blank"
