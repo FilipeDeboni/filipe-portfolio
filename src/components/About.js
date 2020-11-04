@@ -117,7 +117,7 @@ function About() {
                 <a
                   className="text-button resumee-size hover"
                   target="_blank"
-                  href="./Resume/Filipe Deboni Resume.pdf"
+                  href="https://drive.google.com/file/d/1keWf0Ts6IUGOYGcjVZDFIVu-EWG4dR5-/view?usp=sharing"
                 >
                   <span className="">
                     <i className="icon-size pr-1 fas fa-arrow-circle-down"></i>
