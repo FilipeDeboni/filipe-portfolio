@@ -1,8 +1,7 @@
 import React from "react";
 import NavbarProject from "./NavbarProject";
 import "./ProjectDetail.css";
-import project1 from "../images/screens-image.png";
-import project2 from "../images/screens-image.png";
+import project1 from "../images/portfolio1.png";
 
 function Project3() {
   return (
@@ -17,14 +16,12 @@ function Project3() {
               alt="project screens"
               className="img-rounded"
             ></img>
-            <img
-              src={project2}
-              className="project-detail-img"
-              alt="project screens"
-              className="img-rounded"
-            ></img>
             <div className="buttons-details mb-5">
-              <a className="icons hover mx-3" target="_blank" href="#">
+              <a
+                className="icons hover mx-3"
+                target="_blank"
+                href="www.filipedeboni.me"
+              >
                 <i className="far fa-window-maximize"></i>
               </a>
               <a
