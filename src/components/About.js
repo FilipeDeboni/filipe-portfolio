@@ -31,8 +31,8 @@ function About() {
             >
               Type 5
             </a>{" "}
-            personality type, I’m an avid knowledge seeker, analythical,
-            meticulous, assertive, versatyle, curious and creative. On the other
+            personality type, I’m an avid knowledge seeker, analytical,
+            meticulous, assertive, versatile, curious and creative. On the other
             hand, things I'm not so good at is to deal with people who put
             emotions over rationality and when I'm focused I can seem to be in
             my on world. My bachelor in Psychology helped me a lot with that
