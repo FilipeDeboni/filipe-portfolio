@@ -1,5 +1,6 @@
 import React from "react";
 import NavbarProject from "./NavbarProject";
+import Skills from "./Skills";
 import "./ProjectDetail.css";
 import project1 from "../images/clover1.png";
 import project2 from "../images/clover2.png";
@@ -59,15 +60,15 @@ function Project2() {
                     Essentials (50%): basic expenses as rent and groceries
                   </li>
                   <li>
-                    Life Style (30%): that things that make your life better as
+                    Lifestyle (30%): that things that make your life better as
                     dinner out, streaming services and vacation
                   </li>
                   <li>Priorities (20%): savings and investments</li>
                 </ul>
                 The user can change all the categories at will. as requirements,
                 we needed to use Handlebars. I personally preferred to use React
-                like in other Projects deloped during the course for a better
-                organization. As next features we planned improvements on
+                like in other Projects developed during the course for a better
+                organization. As the next features, we planned improvements on
                 reports and graphics.
               </p>
             </div>
@@ -86,8 +87,27 @@ function Project2() {
             </div>
             <div>
               <h5 className="title-project-detail pt-4">Technologies</h5>
-              <span className="text-muted">
-                #JavaScript #CSS #Bootstrap #Handlebars #MongoDB
+              <span className="row justify-content-center">
+                <Skills
+                  icon={<i className="yellow fab fa-js-square"></i>}
+                  skill="JavaScript"
+                ></Skills>
+                <Skills
+                  icon={<i className="yellow fab fa-css3-alt"></i>}
+                  skill="CSS"
+                ></Skills>
+                <Skills
+                  icon={<i className="yellow fab fa-bootstrap"></i>}
+                  skill="Bootstrap"
+                ></Skills>
+                <Skills
+                  icon={<i className="yellow fas fa-code"></i>}
+                  skill="Handlebars"
+                ></Skills>
+                <Skills
+                  icon={<i className="yellow fas fa-server"></i>}
+                  skill="MongoDB"
+                ></Skills>
               </span>
             </div>
           </div>

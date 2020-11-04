@@ -14,15 +14,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* filter: brightness(0.8); */
+  filter: brightness(0.75);
 }
 
 #background1 {
-  background-image: url("./images/background1.jpg");
+  background-image: url("./images/background1.jpeg");
 }
 
 #background2 {
-  background-image: url("./images/background2.jpg");
+  background-image: url("./images/background2.jpeg");
 }
 
 .btn {
