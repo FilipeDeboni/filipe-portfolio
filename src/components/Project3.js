@@ -20,6 +20,7 @@ function Project3() {
               <a
                 className="icons hover mx-3"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="www.filipedeboni.me"
               >
                 <i className="far fa-window-maximize"></i>
@@ -27,6 +28,7 @@ function Project3() {
               <a
                 className="icons hover mx-3"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/FilipeDeboni/filipe-portfolio"
               >
                 <i className="fab fa-github"></i>

@@ -27,6 +27,7 @@ function Project2() {
               <a
                 className="icons hover mx-3"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://clover-budget.herokuapp.com/"
               >
                 <i className="far fa-window-maximize"></i>
@@ -34,6 +35,7 @@ function Project2() {
               <a
                 className="icons hover mx-3"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/FilipeDeboni/Ironhack-Project-2-Clover-Finance/tree/filipe"
               >
                 <i className="fab fa-github"></i>

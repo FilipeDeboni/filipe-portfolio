@@ -27,6 +27,7 @@ function Project1() {
               <a
                 className="icons hover mx-3"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://ironhack-project-3-petfriendly.herokuapp.com/"
               >
                 <i className="far fa-window-maximize"></i>
@@ -34,6 +35,7 @@ function Project1() {
               <a
                 className="icons hover mx-3"
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://github.com/FilipeDeboni/ironhack-project-3-petfriendly-front"
               >
                 <i className="fab fa-github"></i>
