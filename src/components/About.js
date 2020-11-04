@@ -96,12 +96,16 @@ function About() {
                 me out through any platform bellow and let's talk
               </p>
               <div className="contact-box-icons pb-2">
-                <a className="icons hover">
+                <a
+                  className="icons hover"
+                  href="mailto:deboni.filipe@gmail.com"
+                >
                   <i className="far fa-envelope-open"></i>
                 </a>
                 <a
                   className="icons hover"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://www.linkedin.com/in/filipedeboni/"
                 >
                   <i className="fab fa-linkedin-in"></i>
@@ -110,6 +114,7 @@ function About() {
                 <a
                   className="icons hover"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://github.com/FilipeDeboni"
                 >
                   <i className="fab fa-github"></i>
@@ -117,6 +122,7 @@ function About() {
                 <a
                   className="text-button resumee-size hover"
                   target="_blank"
+                  rel="noopener noreferrer"
                   href="https://drive.google.com/file/d/1keWf0Ts6IUGOYGcjVZDFIVu-EWG4dR5-/view?usp=sharing"
                 >
                   <span className="">
