@@ -10,9 +10,10 @@ function About() {
         <div className="d-flex flex-column justify-content-center align-items-center about-text col-12 col-lg-6">
           <p>
             The Front-End has the power to gather all my interests: logic,
-            problem-solving, humans and creativity. I'm currently studying{" "}
-            <span className="yellow">Systems Analysis and Development</span>{" "}
-            graduation and finished Ironhack Web Development Bootcamp on 2020.
+            problem-solving, humans and creativity. I'm currently studying
+            graduation in{" "}
+            <span className="yellow">Systems Analysis and Development</span> and
+            already finished on 2020 the Ironhack Web Development Bootcamp.
           </p>
           <p>
             As a good{" "}
@@ -33,7 +34,7 @@ function About() {
             </a>{" "}
             personality type, I’m an avid knowledge seeker, analytical,
             meticulous, assertive, versatile, curious and creative. On the other
-            hand, things I'm not so good at is to deal with people who put
+            hand, things I'm not so good at are to deal with people who put
             emotions over rationality and when I'm focused I can seem to be in
             my on world. My bachelor in Psychology helped me a lot with that
             points, also to think strategically and to relate better with

@@ -41,17 +41,16 @@ function Project3() {
             <div>
               <h5 className="title-project-detail pt-4">Description</h5>
               <p>
-                I developed my portfolio to gather my projects in a better and
-                easy way. It was really fun to apply some front-end concepts and
-                also to think in its design details.
+                I developed my portfolio aiming to gather my projects in a
+                better and easy way. It was really amusing to apply some
+                front-end concepts and also to think in its design details.
               </p>
               <p>
                 As background images, to contrast with the "futuristic"
-                neumorphism style I used on cards and buttons and also thinking
-                about how technology became something trivial and extremely
-                needed every day, I choose something related to the routine of
-                big cities, subway pictures, in a way that the the minimalist
-                style of the page contrast with the crowded life in big cities.
+                neumorphism style I used on cards and buttons, I choose
+                something related to the daily routine, subway pictures, in a
+                way that the minimalist style of the page contrast with the
+                crowded life in big cities.
               </p>
             </div>
             <div>
