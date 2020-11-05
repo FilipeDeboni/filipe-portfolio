@@ -6,6 +6,7 @@ import "./ProjectDetail.css";
 import project1 from "../images/petfriendly1.png";
 import project2 from "../images/petfriendly2.png";
 
+// Pet Friend.ly
 function Project1() {
   return (
     <div>
@@ -55,6 +56,10 @@ function Project1() {
                 features to implement and how they needed to be. It was
                 developed in one week during the 9th week of the Ironhack Web
                 Development Bootcamp as a final project.
+              </p>
+              <p>
+                I'm currently working on this project. Improving the style and
+                developing some additional features.
               </p>
             </div>
             <div>

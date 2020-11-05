@@ -4,6 +4,7 @@ import Skills from "./Skills";
 import "./ProjectDetail.css";
 import project1 from "../images/portfolio1.png";
 
+// Portfolio
 function Project3() {
   return (
     <div>
