@@ -49,8 +49,8 @@ function Project3() {
                 As background images, to contrast with the "futuristic"
                 neumorphism style I used on cards and buttons, I choose
                 something related to the daily routine, subway pictures, in a
-                way that the minimalist style of the page contrast with the
-                crowded life in big cities.
+                way that the minimalist style of the page also contrasts with
+                the crowded life in big cities.
               </p>
             </div>
             <div>
