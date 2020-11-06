@@ -27,7 +27,7 @@ function Projects() {
           <ProjectCard
             image={project3}
             title="My Portfolio"
-            description="Well, you are already here but I developd it to aggregate my projects effectively."
+            description="Well, you are already here but I developd it to gather my projects effectively."
             link="/portfolio"
           ></ProjectCard>
         </div>
