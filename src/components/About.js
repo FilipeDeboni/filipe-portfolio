@@ -43,7 +43,7 @@ function About() {
           {/* <p>
             I work to make awesome applications. One that is easy to use,
             beautiful, accessible and frustration-free for users, making their
-            life easier.
+            life easier..
           </p> */}
         </div>
 
