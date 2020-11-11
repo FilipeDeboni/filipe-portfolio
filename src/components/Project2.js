@@ -2,8 +2,8 @@ import React from "react";
 import NavbarProject from "./NavbarProject";
 import Skills from "./Skills";
 import "./ProjectDetail.css";
-import project1 from "../images/clover1.png";
-import project2 from "../images/clover2.png";
+import projectImg1 from "../images/clover1.png";
+import projectImg2 from "../images/clover2.png";
 
 function Project2() {
   return (
@@ -13,13 +13,13 @@ function Project2() {
         <div className="row">
           <div className="col-12 col-lg-6">
             <img
-              src={project1}
+              src={projectImg1}
               className="project-detail-img"
               alt="project screens"
               className="img-rounded"
             ></img>
             <img
-              src={project2}
+              src={projectImg2}
               className="project-detail-img"
               alt="project screens"
               className="img-rounded"

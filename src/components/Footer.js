@@ -11,6 +11,7 @@ function Footer() {
         <div className="footer-icons">
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://www.linkedin.com/in/filipedeboni/"
             className="yellow hover"
           >
@@ -20,6 +21,7 @@ function Footer() {
         <div className="footer-icons">
           <a
             target="_blank"
+            rel="noopener noreferrer"
             href="https://github.com/FilipeDeboni"
             className="yellow hover"
           >

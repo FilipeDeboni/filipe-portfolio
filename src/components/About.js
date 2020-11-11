@@ -19,6 +19,7 @@ function About() {
             As a good{" "}
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.16personalities.com/intj-personality"
               className="yellow hover"
             >
@@ -27,6 +28,7 @@ function About() {
             and{" "}
             <a
               target="_blank"
+              rel="noopener noreferrer"
               href="https://www.truity.com/enneagram/personality-type-5-investigator"
               className="yellow hover"
             >

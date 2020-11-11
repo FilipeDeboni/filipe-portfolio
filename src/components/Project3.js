@@ -2,7 +2,7 @@ import React from "react";
 import NavbarProject from "./NavbarProject";
 import Skills from "./Skills";
 import "./ProjectDetail.css";
-import project1 from "../images/portfolio1.png";
+import projectImg1 from "../images/portfolio-og.png";
 
 // Portfolio
 function Project3() {
@@ -13,11 +13,12 @@ function Project3() {
         <div className="row">
           <div className="col-12 col-lg-6">
             <img
-              src={project1}
+              src={projectImg1}
               className="project-detail-img"
               alt="project screens"
               className="img-rounded"
             ></img>
+
             <div className="buttons-details mb-5">
               <a
                 className="icons hover mx-3"

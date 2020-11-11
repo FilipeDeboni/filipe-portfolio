@@ -3,8 +3,8 @@ import NavbarProject from "./NavbarProject";
 
 import Skills from "./Skills";
 import "./ProjectDetail.css";
-import project1 from "../images/petfriendly1.png";
-import project2 from "../images/petfriendly2.png";
+import projectImg1 from "../images/petfriendly1.png";
+import projectImg2 from "../images/petfriendly2.png";
 
 // Pet Friend.ly
 function Project1() {
@@ -15,13 +15,13 @@ function Project1() {
         <div className="row">
           <div className="col-12 col-lg-6">
             <img
-              src={project1}
+              src={projectImg1}
               className="project-detail-img"
               alt="project screens"
               className="img-rounded"
             ></img>
             <img
-              src={project2}
+              src={projectImg2}
               className="project-detail-img"
               alt="project screens"
               className="img-rounded"
