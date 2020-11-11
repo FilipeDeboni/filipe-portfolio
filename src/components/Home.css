@@ -6,7 +6,7 @@
 .page-card-home {
   min-height: 100vh;
   justify-content: center;
-  margin-top: -164px;
+  margin-top: -78px;
   display: flex;
   flex-direction: column;
 }
@@ -18,6 +18,10 @@
 }
 
 @media (min-width: 768px) {
+  .page-card-home {
+    margin-top: -164px;
+  }
+
   .home-font-title {
     font-size: 2.8rem;
     /* 2.5 is the normal */
