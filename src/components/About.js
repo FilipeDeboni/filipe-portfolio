@@ -10,8 +10,8 @@ function About() {
         <div className="d-flex flex-column justify-content-center align-items-center about-text col-12 col-lg-6">
           <p>
             The Front-End has the power to gather all my interests: logic,
-            problem-solving, humans and creativity. I'm currently studying
-            graduation in{" "}
+            problem-solving, user experience and creativity. I'm currently
+            studying graduation in{" "}
             <span className="yellow">Systems Analysis and Development</span> and
             already finished on 2020 the Ironhack Web Development Bootcamp.
           </p>

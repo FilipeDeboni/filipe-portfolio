@@ -9,8 +9,12 @@
   margin-top: -164px;
   display: flex;
   flex-direction: column;
-  /* padding-top: 8vh;
-  padding-bottom: 8vh; */
+}
+
+@media (max-width: 576px) {
+  .page-card-home {
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
