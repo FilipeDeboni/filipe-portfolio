@@ -126,7 +126,7 @@ function About() {
                   className="text-button resumee-size hover"
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://drive.google.com/file/d/1Pm1UxiiHCsK7xCFMQi7cEE-r23sAyWTW/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1sQ-fW8-bgmwiSuMFpdFPfvaPKDlGJZKG/view?usp=sharing"
                 >
                   <span className="">
                     <i className="icon-size pr-1 fas fa-arrow-circle-down"></i>
