@@ -7,7 +7,6 @@ import "./NavbarProject.css";
 // onClick={() => history.goBack()}
 
 function NavbarProject(props) {
-  console.log(props.match);
   return (
     <div className="navbar w-100">
       <nav className="w-100">
