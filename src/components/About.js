@@ -12,8 +12,8 @@ function About() {
             The Front-End has the power to gather all my interests: logic,
             problem-solving, user experience and creativity. I'm currently
             studying graduation in{" "}
-            <span className="yellow">Systems Analysis and Development</span> and
-            already finished on 2020 the Ironhack Web Development Bootcamp.
+            <span className="yellow">Analysis and Development of Systems</span>{" "}
+            and already finished on 2020 the Ironhack Web Development Bootcamp.
           </p>
           <p>
             As a good{" "}
