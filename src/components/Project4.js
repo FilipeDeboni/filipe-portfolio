@@ -2,10 +2,10 @@ import React from "react";
 import NavbarProject from "./NavbarProject";
 import Skills from "./Skills";
 import "./ProjectDetail.css";
-import projectImg1 from "../images/portfolio-og.png";
+import projectImg1 from "../images/netflix.png";
 
-// Portfolio
-function Project3() {
+// Netflix
+function Project4() {
   return (
     <div>
       <NavbarProject />
@@ -24,7 +24,7 @@ function Project3() {
                 className="icons hover mx-3"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://www.filipedeboni.me"
+                href="https://filipedeboni-netflix-react.herokuapp.com/"
               >
                 <i className="far fa-window-maximize"></i>
               </a>
@@ -32,27 +32,23 @@ function Project3() {
                 className="icons hover mx-3"
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/FilipeDeboni/filipe-portfolio"
+                href="https://github.com/FilipeDeboni/netflix-react"
               >
                 <i className="fab fa-github"></i>
               </a>
             </div>
           </div>
           <div className="column-two col-12 col-lg-6">
-            <h2 className="title-project-detail">My Portfolio</h2>
+            <h2 className="title-project-detail">Netflix Clone</h2>
             <div>
               <h5 className="title-project-detail pt-4">Description</h5>
               <p>
-                I developed my portfolio aiming to gather my projects in a
-                better and easy way. It was really amusing to apply some
-                front-end concepts and also to think in its design details.
+                This is a Netflix page developed for training React and CSS skills.
               </p>
               <p>
-                As background images, to contrast with the "futuristic"
-                neumorphism style I used on cards and buttons, I choose
-                something related to the daily routine, subway pictures, in a
-                way that the minimalist style of the page also contrasts with
-                the crowded life in big cities.
+                It was very fun work with that, mostly with the list scroll feature and the API from TheMovieDB.com. 
+                This API links a big database of TV shows and movies from all studios, that's why is 
+                common to gather some TV shows information and pictures from another companies too, not just Netflix. 
               </p>
             </div>
             <div>
@@ -60,7 +56,7 @@ function Project3() {
               <ul>
                 <li>
                   <span className="font-weight-bold">
-                    Front-End and Design:{" "}
+                    Front-End:{" "}
                   </span>
                   Filipe Deboni <span className="text-muted">(me)</span>
                 </li>
@@ -81,20 +77,12 @@ function Project3() {
                   icon={<i className="yellow fab fa-css3-alt"></i>}
                   skill="CSS"
                 ></Skills>
-                <Skills
-                  icon={<i className="yellow fab fa-bootstrap"></i>}
-                  skill="Bootstrap"
-                ></Skills>
-                <Skills
-                  icon={<i className="yellow fas fa-server"></i>}
-                  skill="MongoDB"
-                ></Skills>
               </span>
               <div className="d-flex pt-2">
-                <i className="check-sign fas fa-check pt-1"></i><p className="check-text pl-2">Responsivity</p>
+                <i className="check-sign fas fa-check pt-1"></i><p className="check-text pl-2">API</p>
               </div>
               <div className="d-flex">
-                <i className="check-sign fas fa-check pt-1"></i><p className="check-text pl-2">Single Page Application (SPA)</p>
+                <i className="check-sign fas fa-check pt-1"></i><p className="check-text pl-2">Responsivity</p>
               </div>
             </div>
           </div>
@@ -104,4 +92,4 @@ function Project3() {
   );
 }
 
-export default Project3;
+export default Project4;

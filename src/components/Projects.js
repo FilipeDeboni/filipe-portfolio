@@ -3,6 +3,7 @@ import ProjectCard from "./ProjectCard";
 import project1 from "../images/petfriendly1.png";
 import project2 from "../images/clover1.png";
 import project3 from "../images/portfolio1.png";
+import project4 from "../images/netflix.png";
 import "./Projects.css";
 
 function Projects() {
@@ -12,6 +13,12 @@ function Projects() {
         <h1 className="font-title pb-4"> Projects</h1>
         {/* <p>Check out the projects I've worked on recently.</p> */}
         <div className="row justify-content-center">
+        <ProjectCard
+            image={project4}
+            title="Netflix Clone"
+            description="A Netflix mainpage developed for training CSS and React skills."
+            link="/netflix"
+          ></ProjectCard>
           <ProjectCard
             image={project1}
             title="Pet Friend.ly"
@@ -27,7 +34,7 @@ function Projects() {
           <ProjectCard
             image={project3}
             title="My Portfolio"
-            description="Well, you are already here but I developd it to gather my projects effectively."
+            description="Well, you are already here but I developed it to gather my projects effectively."
             link="/portfolio"
           ></ProjectCard>
         </div>

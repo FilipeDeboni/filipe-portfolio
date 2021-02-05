@@ -109,6 +109,9 @@ function Project2() {
                   skill="MongoDB"
                 ></Skills>
               </span>
+              <div className="d-flex pt-2">
+                <i className="check-sign fas fa-check pt-1"></i><p className="check-text pl-2">Responsivity</p>
+              </div>
             </div>
           </div>
         </div>

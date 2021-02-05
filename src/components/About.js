@@ -9,9 +9,8 @@ function About() {
       <div className="row">
         <div className="d-flex flex-column justify-content-center align-items-center about-text col-12 col-lg-6">
           <p>
-            The Front-End has the power to gather all my interests: logic,
-            problem-solving, user experience and creativity. I'm currently
-            studying graduation in{" "}
+            I’m a Front-End Developer with experience in the Technology field, with postgraduate education in{" "}
+            <span className="yellow">Interaction Design</span>{" "} and currently studying graduation in{" "}
             <span className="yellow">Analysis and Development of Systems</span>{" "}
             and already finished on 2020 the Ironhack Web Development Bootcamp.
           </p>
@@ -34,11 +33,10 @@ function About() {
             >
               Type 5
             </a>{" "}
-            personality type, I’m an avid knowledge seeker, analytical,
-            meticulous, assertive, versatile, curious and creative. On the other
+            personality type, I’m an avid knowledge seeker, analytical, assertive, versatile, curious and creative. On the other
             hand, things I'm not so good at are to deal with people who put
             emotions over rationality and when I'm focused I can seem to be in
-            my on world. My bachelor in Psychology helped me a lot with that
+            my own world. My bachelor in Psychology helped me a lot with that
             points, also to think strategically and to relate better with
             people.
           </p>
